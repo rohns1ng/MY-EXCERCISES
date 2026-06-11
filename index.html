@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Layout Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(23, 33, 63);
+        }
+
+        .navbar {
+            background-color: rgb(15, 15, 43);
+            padding: 20px;
+        }
+
+        header{
+            position: sticky;
+            top: 0px;
+        }
+
+
+
+        ul li {
+            display: inline;
+            font-weight: bolder;
+            padding: 5px 30px;
+        }
+
+        .ul-first li:hover {
+            background-color: rgb(23, 33, 63);
+            border-radius: 8px;
+        }
+
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+
+        .article {
+            background-color: darkslateblue;
+            width: 100%;
+            height: 800px;
+        }
+
+
+        .article aside {
+            display: inline-block;
+            background-color: rgb(39, 39, 42);
+            color: whitesmoke;
+            margin: 50px 100px;
+            height: 700px;
+            width: 36vw;
+        }
+
+
+        main section {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 15px;
+            text-align: center;
+            align-content: center;
+            height: 300px;
+            margin: 100px;
+            padding: 20px;
+
+        }
+
+        main figure img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+        .footer {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .footer ul li a {
+            color: rgba(111, 113, 127);
+            text-decoration: none;
+        }
+
+        .ul-second li a:hover {
+            color: aliceblue;
+        }
+
+        h3 {
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="ul-first">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article class="article">
+            <aside>aside1</aside>
+            <aside>aside2</aside>
+        </article>
+
+        <figure>
+            <img src="logo.jpeg" alt="">
+        </figure>
+
+        <section>
+            <h2>Welcome To Sigma Web Development Course!</h2>
+            <p>Every Process Is Slow But Consistensy Must Remain</p>
+        </section>
+
+        
+
+    </main>
+
+    <footer class="footer">
+        <h3>Social</h3>
+        <ul class="ul-second">
+            <li><a href="https://www.linkedin.com/feed/">Linkedin</a></li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://x.com/home">Twitter</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
